@@ -1,0 +1,56 @@
+
+.hero-banner{
+    border-radius: 50px;
+}
+
+.hero-banner .start-button{
+    width: 200px;
+    height: 50px;
+    background: #c75080;
+    color:white;
+    border-radius: 30px;
+    border: 1px #c75080;
+    text-decoration: none;
+    padding: 13px;
+}
+
+.main{
+    margin-top: 50px;
+    border-radius: 50px;
+    height: 940px;
+}
+
+
+.user-search-section, .movie-search-section{
+    border-radius: 50px;
+}
+
+.buttons-section button{
+    width: 150px;
+    height: 50px;
+    background: #c75080;
+    color:white;
+    border-radius: 20px !important;
+    border: 5px #c75080;
+    text-decoration: none;
+    padding: 13px;
+    margin-left: 15px;
+}
+
+.buttons-section button:hover{
+    width: 150px;
+    height: 50px;
+    background: white;
+    color:#c75080;
+    border-radius: 20px !important;
+    border: 1px solid #c75080;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 13px;
+    margin-left: 15px;
+}
+
+
+.card{
+    border-radius: 20px !important;
+}

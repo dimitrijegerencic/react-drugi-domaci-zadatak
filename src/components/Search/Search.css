@@ -1,0 +1,35 @@
+.input-field{
+    border-radius: 10px;
+    padding-left: 10px;
+    height: 40px;
+    width: 350px;
+    border: 1px solid #c75080;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.input-field:focus{
+    outline: none;
+}
+
+.input-field:focus{
+    border: 2px solid #c75080;
+    transition: border-width 0.1s linear;
+}
+
+.user-photo{
+    vertical-align: middle;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.results{
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .results {
+        width: 100%;
+    }
+}

@@ -1,0 +1,57 @@
+
+.user-box{
+    border-radius: 20px;
+    padding: 20px;
+    position: relative;
+    width: 150px;
+}
+
+.user-box .left{
+    width: 50%;
+    float: left;
+    position: absolute;
+    margin-left: 20px;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.user-box .right{
+    margin-top: 10px;
+    width: 50%;
+    float: right;
+}
+
+.user-box .right .full-name{
+    font-weight: bold;
+    color: #430f58;
+}
+
+.user-box .right .city-label{
+    font-weight: bold;
+    color: #430f58;
+    font-size: 13px;
+}
+
+.user-box .right .age-label{
+    font-weight: bold;
+    color: #430f58;
+    font-size: 13px;
+}
+
+
+.user-box .right .city{
+    font-size: 14px;
+}
+
+.user-box .right .age{
+    font-size: 14px;
+}
+
+.user-photo{
+    vertical-align: middle;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+
+}
